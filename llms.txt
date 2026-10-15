@@ -1,0 +1,23 @@
+# Kapto
+
+> Unlimited exports, all caption styles
+
+Kapto: Captions for Videos — Auto Subtitles & Caption Maker. iPhone app, available on the App Store: https://apps.apple.com/app/id6809116907?pt=128839649&ct=ai_web
+
+## Guides
+
+- [A Caption App for iPhone Without Credits or Per-Minute Limits](https://jjjulietttee-jpg.github.io/vocap-app/caption-app-for-iphone-without-credits): How Kapto charges for captions on iPhone: a flat subscription, no credits and no per-minute packs, with a free preview of every style.
+- [How to Add Auto Captions to a Vertical Video on iPhone](https://jjjulietttee-jpg.github.io/vocap-app/how-to-add-auto-captions-to-a-vertical-video-on-iphone): Add automatic word-by-word captions to a vertical video on iPhone with Kapto: import, check the words, pick a style, save to Photos.
+- [How to Add Subtitles to a Video Offline on iPhone](https://jjjulietttee-jpg.github.io/vocap-app/how-to-add-subtitles-to-a-video-offline-on-iphone): Add subtitles to a video on iPhone without uploading it: Kapto recognizes speech and renders the captions on the device.
+- [How to Export an SRT Subtitle File From a Video on iPhone](https://jjjulietttee-jpg.github.io/vocap-app/how-to-export-an-srt-file-from-a-video-on-iphone): Create an SRT subtitle file from the speech in a video on iPhone with Kapto, with correct per-line timing.
+
+## App
+
+- [Home](https://jjjulietttee-jpg.github.io/vocap-app/): what Kapto does, features, pricing
+- [App Store](https://apps.apple.com/app/id6809116907?pt=128839649&ct=ai_web): download, screenshots, reviews
+
+## Optional
+
+- [Privacy](https://jjjulietttee-jpg.github.io/vocap-app/privacy)
+- [Support](https://jjjulietttee-jpg.github.io/vocap-app/support)
+- [Terms](https://jjjulietttee-jpg.github.io/vocap-app/terms)

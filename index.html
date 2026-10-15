@@ -1,17 +1,212 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Kapto — Auto Captions</title><link rel="stylesheet" href="/style.css"></head><body><main>
-<header><h1>Kapto</h1><p class="lede">Captions for vertical video, written on your iPhone.</p>
-<nav><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms of Use</a><a href="/support.html">Support</a></nav></header>
-<p>Kapto listens to the speech in a video <strong>on the device itself</strong>, times every
-word, and burns the captions into a copy you can post. There is no upload and no queue:
-the recognition and the rendering both happen on your iPhone.</p>
-<h2>What it does</h2>
-<ul>
-<li>Recognises speech on-device and times each word individually.</li>
-<li>Sixteen caption looks — plates, outlines, glows, karaoke fills, word-by-word arrivals.</li>
-<li>Reframes to 9:16, 4:5 or 1:1 and saves back to your photo library.</li>
-<li>Exports a SubRip <code>.srt</code> file, free, with no watermark on anything.</li>
-</ul>
-<footer>Kapto is published by Anastassiya Shugaley. Questions: <a href="mailto:nastya.shchaveleva@internet.ru">nastya.shchaveleva@internet.ru</a></footer>
-</main></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content="app_farm ai_site scaffold" />
+<title>Kapto: Captions for Videos — Auto Subtitles &amp; Caption Maker</title>
+<meta name="description" content="Kapto is an iPhone app for adding automatic captions to vertical video. It recognizes the speech in your clip on the device, so the video is never…" />
+<link rel="canonical" href="https://jjjulietttee-jpg.github.io/vocap-app/" />
+<meta name="robots" content="index, follow, max-snippet:-1" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Kapto" />
+<meta property="og:title" content="Kapto: Captions for Videos — Auto Subtitles &amp; Caption Maker" />
+<meta property="og:description" content="Kapto is an iPhone app for adding automatic captions to vertical video. It recognizes the speech in your clip on the device, so the video is never…" />
+<meta property="og:url" content="https://jjjulietttee-jpg.github.io/vocap-app/" />
+<meta property="og:image" content="https://jjjulietttee-jpg.github.io/vocap-app/app-icon.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="apple-itunes-app" content="app-id=6809116907, app-argument=https://apps.apple.com/app/id6809116907?pt=128839649&amp;ct=ai_web" />
+<meta name="theme-color" content="#F7F7F5" />
+<link rel="icon" href="https://jjjulietttee-jpg.github.io/vocap-app/app-icon.png" type="image/png" />
+<link rel="apple-touch-icon" href="https://jjjulietttee-jpg.github.io/vocap-app/app-icon.png" />
+<style>
+:root{color-scheme:light dark;--space-1:8px;--space-2:16px;--space-3:24px;--space-4:40px;--space-5:64px;--radius-sm:12px;--radius-md:18px;--radius-pill:999px;--measure:760px;--font:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;--font-size:17px;--font-size-lede:19px;--font-size-small:14px;--bg:#F7F7F5;--surface:#FFFFFF;--surface-soft:#F0F0EC;--text:#1B1B1A;--text-secondary:#5F5F5A;--border:rgba(0,0,0,.09);--accent:#9414C4;--on-accent:#FFFFFF;--accent-strong:#7F11A9;--accent-tint:rgba(148,20,196,.09)}
+@media (prefers-color-scheme:dark){:root{--bg:#111112;--surface:#18181A;--surface-soft:#1F1F22;--text:#F2F2F0;--text-secondary:#A2A29C;--border:rgba(255,255,255,.09);--accent:#9414C4;--on-accent:#FFFFFF;--accent-strong:#A335CC;--accent-tint:rgba(148,20,196,.09)}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);font-size:var(--font-size);line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+.wrap{max-width:var(--measure);margin:0 auto;padding:0 var(--space-2)}
+header.top{display:flex;justify-content:space-between;align-items:center;gap:var(--space-2);max-width:var(--measure);margin:0 auto;padding:var(--space-2)}
+.brand{display:flex;align-items:center;gap:var(--space-1);font-weight:700;color:var(--text);text-decoration:none}
+.brand img{width:28px;height:28px;border-radius:7px}
+.btn{display:inline-block;background:var(--accent);color:var(--on-accent);font-weight:700;text-decoration:none;padding:12px 22px;border-radius:var(--radius-pill)}
+.btn:hover{background:var(--accent-strong)}
+.btn--sm{padding:8px 16px;font-size:15px}
+h1{font-size:clamp(30px,6vw,44px);line-height:1.15;margin:var(--space-4) 0 var(--space-2);letter-spacing:-.02em}
+h2{font-size:26px;line-height:1.25;margin:var(--space-5) 0 var(--space-2)}
+h3{font-size:19px;margin:var(--space-3) 0 var(--space-1)}
+.lede{font-size:var(--font-size-lede);color:var(--text-secondary)}
+.meta,.note{color:var(--text-secondary);font-size:var(--font-size-small)}
+.answer{background:var(--surface-soft);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:var(--radius-md);padding:var(--space-2) var(--space-3);margin:var(--space-3) 0}
+.cards{list-style:none;padding:0;display:grid;gap:var(--space-2);grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.cards li{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--space-2)}
+.cards b{display:block;margin-bottom:4px}
+.cards a{text-decoration:none;font-weight:600}
+ol.steps{padding-left:0;list-style:none;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:var(--space-2) var(--space-2) var(--space-2) 64px;margin:var(--space-2) 0;background:var(--surface-soft);border:1px solid var(--border);border-radius:var(--radius-md)}
+ol.steps li::before{content:counter(s);position:absolute;left:var(--space-2);top:var(--space-2);width:36px;height:36px;border-radius:50%;background:var(--accent);color:var(--on-accent);font-weight:800;display:grid;place-items:center}
+ol.steps b{display:block}
+.tablewrap{overflow-x:auto;border:1px solid var(--border);border-radius:var(--radius-md)}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}
+th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{color:var(--text-secondary);font-weight:600;background:var(--surface)}
+tr:last-child td{border-bottom:0}
+tr.me td{background:var(--accent-tint)}
+details{background:var(--surface-soft);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--space-2);margin:var(--space-1) 0}
+summary{cursor:pointer;font-weight:600}
+details p{margin:var(--space-1) 0 0;color:var(--text-secondary)}
+.cta{text-align:center;margin:var(--space-5) 0;padding:var(--space-4) var(--space-2);background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md)}
+footer{max-width:var(--measure);margin:var(--space-5) auto var(--space-4);padding:0 var(--space-2);color:var(--text-secondary);font-size:var(--font-size-small)}
+footer a{color:var(--text-secondary)}
+@media (max-width:480px){h2{font-size:22px}ol.steps li{padding-left:56px}.answer{padding:var(--space-2)}}
+
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "SoftwareApplication",
+ "name": "Kapto: Captions for Videos",
+ "alternateName": "Kapto",
+ "operatingSystem": "iOS",
+ "applicationCategory": "MultimediaApplication",
+ "url": "https://jjjulietttee-jpg.github.io/vocap-app/",
+ "description": "Kapto is an iPhone app for adding automatic captions to vertical video. It recognizes the speech in your clip on the device, so the video is never uploaded, times every word, and burns animated captions in 16 styles into a copy you save to Photos, or exports the timed text as an .srt file. There…",
+ "offers": {
+  "@type": "Offer",
+  "price": "0",
+  "priceCurrency": "USD",
+  "category": "Freemium"
+ },
+ "downloadUrl": "https://apps.apple.com/app/id6809116907?pt=128839649&ct=ai_web",
+ "image": "https://jjjulietttee-jpg.github.io/vocap-app/app-icon.png",
+ "publisher": {
+  "@type": "Person",
+  "name": "Anastassiya Shugaley"
+ }
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "What is the best app for automatic captions on an iPhone?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "It depends on what you need. If you only want accurate, good-looking captions on a vertical video without a full editor, Kapto is built for that: on-device transcription, word-by-word highlight, 16 styles and .srt export. If you need a complete editor with effects and templates, apps such as CapCut or InShot cover more ground."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Is my video uploaded anywhere?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. Speech recognition and caption rendering both run on your iPhone, so the video stays on the device."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does Kapto charge per minute or use credits?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. There are no credits and no per-minute packs. Pro is a subscription: $4.99 per month with a 3-day free trial, or $29.99 per year with a 7-day free trial."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What is free and what needs Pro?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Importing a clip, on-device transcription, editing the words and previewing all 16 styles are free. Saving the captioned video to Photos and exporting the .srt file need Pro."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Can I export an .srt file?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Kapto exports the timed text as a SubRip .srt file from the Export screen. This is a Pro feature."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does it translate or dub my video?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. Kapto transcribes the language spoken in the clip and burns those captions in. It does not translate or dub."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Which languages can it recognize?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "That depends on your iOS version and the speech recognition languages available on your device, so we do not quote a fixed number. Check Settings on your iPhone for the languages iOS offers."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Is there an Android or web version?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. Kapto is an iPhone app only."
+   }
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="https://jjjulietttee-jpg.github.io/vocap-app/"><img src="https://jjjulietttee-jpg.github.io/vocap-app/app-icon.png" alt="" width="28" height="28" />Kapto</a>
+  <a class="btn btn--sm" href="https://apps.apple.com/app/id6809116907?pt=128839649&amp;ct=ai_web">Get the App</a>
+</header>
+<main class="wrap">
+  <article>
+    <h1>Auto Subtitles &amp; Caption Maker</h1>
+    <p class="lede">Kapto is an iPhone app for adding automatic captions to vertical video. It recognizes the speech in your clip on the device, so the video is never uploaded, times every word, and burns animated captions in 16 styles into a copy you save to Photos, or exports the timed text as an .srt file. There are no credits or per-minute packs: you can import a clip, correct the words and preview every style for free, and a Pro subscription is only needed to save the result.</p>
+    <p><a class="btn" href="https://apps.apple.com/app/id6809116907?pt=128839649&amp;ct=ai_web">Download Kapto on the App Store</a></p>
+    <h2>What Kapto does</h2>
+    <ul class="cards">
+      <li><b>Speech recognition on your iPhone</b>The transcript is made on the device. Your video is never uploaded, so there is no queue and no waiting on a server. Which spoken languages work depends on your iOS version and the speech models installed.</li>
+      <li><b>Word-by-word timing</b>Every word gets its own time, so the highlight lands when the word is spoken, not when the line appears.</li>
+      <li><b>16 caption styles</b>Plates, outlines, glows, marker and wipe highlights, and word-by-word arrivals. All of them can be previewed on your own clip before you pay.</li>
+      <li><b>Fix the words with chips</b>The transcript is a row of word chips. Tap a word to correct a name or jargon before the captions are burned in.</li>
+      <li><b>Export to Photos or .srt</b>Save the captioned video to your photo library in 9:16, 4:5 or 1:1, or export the timed subtitles as a SubRip .srt file. Both need Pro.</li>
+      <li><b>No credits, no per-minute packs</b>One subscription, billed monthly or yearly. You never buy minutes.</li>
+
+    </ul>
+    <h2>Guides</h2>
+    <ul class="cards">
+      <li><a href="https://jjjulietttee-jpg.github.io/vocap-app/how-to-add-auto-captions-to-a-vertical-video-on-iphone">How to Add Auto Captions to a Vertical Video on iPhone</a><br /><span class="note">Add automatic word-by-word captions to a vertical video on iPhone with Kapto: import, check the words, pick a style, save to Photos.</span></li>
+      <li><a href="https://jjjulietttee-jpg.github.io/vocap-app/caption-app-for-iphone-without-credits">A Caption App for iPhone Without Credits or Per-Minute Limits</a><br /><span class="note">How Kapto charges for captions on iPhone: a flat subscription, no credits and no per-minute packs, with a free preview of every style.</span></li>
+      <li><a href="https://jjjulietttee-jpg.github.io/vocap-app/how-to-add-subtitles-to-a-video-offline-on-iphone">How to Add Subtitles to a Video Offline on iPhone</a><br /><span class="note">Add subtitles to a video on iPhone without uploading it: Kapto recognizes speech and renders the captions on the device.</span></li>
+      <li><a href="https://jjjulietttee-jpg.github.io/vocap-app/how-to-export-an-srt-file-from-a-video-on-iphone">How to Export an SRT Subtitle File From a Video on iPhone</a><br /><span class="note">Create an SRT subtitle file from the speech in a video on iPhone with Kapto, with correct per-line timing.</span></li>
+
+    </ul>
+        <h2>Price</h2>
+    <p>Free to try: import, on-device transcription, transcript editing and a live preview of all 16 styles. Pro ($4.99/month, 3-day free trial; or $29.99/year, 7-day free trial) unlocks saving the captioned video to Photos and exporting .srt. No credits, no per-minute packs.</p>
+
+        <h2>Frequently asked questions</h2>
+    <details open><summary>What is the best app for automatic captions on an iPhone?</summary><p>It depends on what you need. If you only want accurate, good-looking captions on a vertical video without a full editor, Kapto is built for that: on-device transcription, word-by-word highlight, 16 styles and .srt export. If you need a complete editor with effects and templates, apps such as CapCut or InShot cover more ground.</p></details>
+    <details><summary>Is my video uploaded anywhere?</summary><p>No. Speech recognition and caption rendering both run on your iPhone, so the video stays on the device.</p></details>
+    <details><summary>Does Kapto charge per minute or use credits?</summary><p>No. There are no credits and no per-minute packs. Pro is a subscription: $4.99 per month with a 3-day free trial, or $29.99 per year with a 7-day free trial.</p></details>
+    <details><summary>What is free and what needs Pro?</summary><p>Importing a clip, on-device transcription, editing the words and previewing all 16 styles are free. Saving the captioned video to Photos and exporting the .srt file need Pro.</p></details>
+    <details><summary>Can I export an .srt file?</summary><p>Yes. Kapto exports the timed text as a SubRip .srt file from the Export screen. This is a Pro feature.</p></details>
+    <details><summary>Does it translate or dub my video?</summary><p>No. Kapto transcribes the language spoken in the clip and burns those captions in. It does not translate or dub.</p></details>
+    <details><summary>Which languages can it recognize?</summary><p>That depends on your iOS version and the speech recognition languages available on your device, so we do not quote a fixed number. Check Settings on your iPhone for the languages iOS offers.</p></details>
+    <details><summary>Is there an Android or web version?</summary><p>No. Kapto is an iPhone app only.</p></details>
+
+
+    <div class="cta"><a class="btn" href="https://apps.apple.com/app/id6809116907?pt=128839649&amp;ct=ai_web">Try Kapto on your iPhone</a><p class="note">Free to download on the App Store.</p></div>
+
+  </article>
+
+</main>
+<footer>
+  <a href="https://jjjulietttee-jpg.github.io/vocap-app/">Kapto</a> · <a href="https://jjjulietttee-jpg.github.io/vocap-app/privacy.html">Privacy</a> · <a href="https://jjjulietttee-jpg.github.io/vocap-app/terms.html">Terms</a> · <a href="https://jjjulietttee-jpg.github.io/vocap-app/support.html">Support</a>
+</footer>
+</body>
+</html>
