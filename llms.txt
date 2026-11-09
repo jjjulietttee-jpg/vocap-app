@@ -1,19 +1,22 @@
-# Titlecard
+# Kapto
 
 > Unlimited exports, all caption styles
 
-Titlecard: Captions for Videos — Auto Subtitles & Caption Maker. iPhone app, available on the App Store: https://apps.apple.com/app/id6809116907?pt=128839649&ct=ai_web
+Titlecard: Captions for Videos — Auto Subtitles from Your Voice. iPhone app, available on the App Store: https://apps.apple.com/app/id6809116907?pt=128839649&ct=ai_web
 
 ## Guides
 
 - [A Caption App for iPhone Without Credits or Per-Minute Limits](https://jjjulietttee-jpg.github.io/vocap-app/caption-app-for-iphone-without-credits): How Titlecard charges for captions on iPhone: a flat subscription, no credits and no per-minute packs, with a free preview of every style.
+- [Cheaper Alternative to the Captions App for iPhone Auto Subtitles](https://jjjulietttee-jpg.github.io/vocap-app/cheaper-alternative-to-the-captions-app-on-iphone): If you only need auto subtitles, Titlecard (listed as Kapto) costs $4.99/month or $29.99/year vs Captions at $9.99/month and $64.99/year. Prices and…
 - [How to Add Auto Captions to a Vertical Video on iPhone](https://jjjulietttee-jpg.github.io/vocap-app/how-to-add-auto-captions-to-a-vertical-video-on-iphone): Add automatic word-by-word captions to a vertical video on iPhone with Titlecard: import, check the words, pick a style, save to Photos.
 - [How to Add Subtitles to a Video Offline on iPhone](https://jjjulietttee-jpg.github.io/vocap-app/how-to-add-subtitles-to-a-video-offline-on-iphone): Add subtitles to a video on iPhone without uploading it: Titlecard recognizes speech and renders the captions on the device.
+- [How to Add Word-by-Word Highlighted Captions to a Video on iPhone](https://jjjulietttee-jpg.github.io/vocap-app/how-to-add-word-by-word-highlighted-captions-on-iphone): Add captions that highlight each word as it is spoken on iPhone with Titlecard (listed as Kapto): import, fix words, pick a highlight style, save for…
 - [How to Export an SRT Subtitle File From a Video on iPhone](https://jjjulietttee-jpg.github.io/vocap-app/how-to-export-an-srt-file-from-a-video-on-iphone): Create an SRT subtitle file from the speech in a video on iPhone with Titlecard, with correct per-line timing.
+- [Best Caption App for iPhone: Titlecard (Kapto) vs CapCut vs Captions vs Captiono](https://jjjulietttee-jpg.github.io/vocap-app/titlecard-vs-capcut-vs-captions-app-for-iphone): Honest comparison of four iPhone caption apps: Titlecard (listed as Kapto), CapCut, Captions and Captiono. US App Store prices, what each is best at, and…
 
 ## App
 
-- [Home](https://jjjulietttee-jpg.github.io/vocap-app/): what Titlecard does, features, pricing
+- [Home](https://jjjulietttee-jpg.github.io/vocap-app/): what Kapto does, features, pricing
 - [App Store](https://apps.apple.com/app/id6809116907?pt=128839649&ct=ai_web): download, screenshots, reviews
 
 ## Optional
